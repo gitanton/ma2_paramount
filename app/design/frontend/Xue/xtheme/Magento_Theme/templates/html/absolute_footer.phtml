@@ -1,0 +1,33 @@
+<?php
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+?>
+<?php /* @escapeNotVerified */ //echo $block->getMiscellaneousHtml();?>
+
+<section class="foot_bg">
+
+    <div class="social_cols">
+    <?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer-social')->toHtml();?>
+    
+        
+    </div>
+
+</section>
+
+<section class="foot_main">
+
+<div class="wrap">
+<div class="col-xs-12 col-sm-3 col-md-2">
+<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer-logo')->toHtml();?>
+</div>
+<div class="col-xs-12 col-sm-6 col-md-8">
+<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer-link')->toHtml();?>
+</div>
+
+<div class="col-xs-12 col-sm-3 col-md-2">
+<?php echo $block->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('footer-brand')->toHtml();?>
+</div>
+    </div>
+    </section>
