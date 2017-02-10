@@ -563,11 +563,12 @@ footer.page-footer {
 }
 .authorization-link {
   border-right: 1px solid #fff;
-  margin-right: 60px;
+  margin-right: 70px;
   padding-right: 10px;
 }
 ul.header.links li a {
   color: #fff !important;
+  text-transform:uppercase;
 }
 .grid_box img {
   width: 100%;
@@ -1250,7 +1251,89 @@ ul.header.links li a {
  
 }
 
-@media (min-width: 1921px) and (max-width: 2560px) {
+
+.search_wrapper {right: 50px; top:50px}
+ul.header.links li {right: 75px;top: 25px;}
+.radius-cust {
+  background-color: rgba(74, 11, 129, 0.75);
+  border-radius: 100%;
+  bottom: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
+  height: 810px;
+  padding: 50px 20px 70px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 810px;
+}
+.radius-cust p {
+  clear: both;
+  color: #ffffff;
+  display: block;
+  float: left;
+  font-family: "brandon_grotesquelight";
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: auto;
+  max-width: 100%;
+  padding: 0 10%;
+  width: 100%;
+}
+.radius-cust h4 {
+  color: #ffa801;
+  font-family: "brandon_grotesquemedium";
+  font-size: 72px;
+  font-weight: normal;
+  line-height: 1.1;
+  margin-top: 31px;
+  text-transform: uppercase;
+}
+.radius-cust a.link_col {
+  background-color: #ff2b35;
+  border-radius: 2px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "brandon_grotesquemedium";
+  font-size: 24px;
+  margin-top: 60px;
+  padding: 14px 50px;
+  text-transform: uppercase;
+  min-width: 260px;
+}
+.search_wrapper {
+  max-width: 100%;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 34px;
+  width: 290px;
+}
+.control .input-text {
+  float: left;
+  width: 192px;
+}
+.block.block-content.search_bar {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  left: -20px;
+  margin-top: 45px;
+  padding: 6px 5px 5px 8px;
+  position: relative;
+  width: 290px;
+}
+.search_icon svg {
+  height: 22px;
+  width: 24px;
+}
+.logo_main {
+  float: left;
+  margin-bottom: 80px;
+  width: 100%;
+}
+.header .sec-first {height: 100vh !important; background-size: cover;}   
 .content_grid {
   top: 8vw;
 }
@@ -1305,6 +1388,7 @@ ul.header.links li a {
   font-size: 75px;
 }
 }
+
 
 @media (min-width: 300px) and (max-width: 767px) {
     .logo_brand {
