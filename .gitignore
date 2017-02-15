@@ -1,3 +1,5 @@
 /app/etc/env.php
 /pub/media
 /var
+/pub/static
+.ftpquota
